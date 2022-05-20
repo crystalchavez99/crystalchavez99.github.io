@@ -1,8 +1,16 @@
 import React from 'react';
-
+import About from './Components/About';
+import Contact from './Components/Contact';
+import Projects from './Components/Projects';
+import Skills from './Components/Skills';
 function App() {
   return (
-    <h1>Hello world!</h1>
+    <div>
+      <About/>
+      <Projects/>
+      <Skills/>
+      <Contact/>
+    </div>
   );
 }
 
