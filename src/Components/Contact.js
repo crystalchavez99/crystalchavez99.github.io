@@ -3,7 +3,7 @@ import React from 'react';
 function Contact() {
     return (
         <div id="contact">
-            <form name="contact" method="POST" data-netlify-recaptcha="true" data-netlify="true">
+            <form name="contact" method="POST" netlify data-netlify-recaptcha="true" data-netlify="true">
                 <p>
                     <label>Your Name: <input type="text" name="name" /></label>
                 </p>
