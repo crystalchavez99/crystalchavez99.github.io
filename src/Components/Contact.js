@@ -4,21 +4,38 @@ function Contact() {
     return (
         <div id="contact">
             <h1>Contact Me</h1>
-            <form name="contact" method="POST" data-netlify="true" onSubmit={"submit"}>
-                <input type="hidden" name="form-name" value={"contact v1"}/>
-                <p>
-                    <label>Your Name: <input type="text" name="name" /></label>
-                </p>
-                <p>
-                    <label>Your Email: <input type="email" name="email" /></label>
-                </p>
-                <p>
-                    <label>Message: <textarea name="message"></textarea></label>
-                </p>
-                <div data-netlify-recaptcha="true"></div>
-                <p>
-                    <button type="submit">Send</button>
-                </p>
+            <form
+                name="contact"
+                method="post"
+                data-netlify="true"
+                onSubmit="submit"
+                data-netlify-honeypot="bot-field"
+            >
+                <input type="hidden" name="form-name" value="contact v2" />
+
+                <div hidden>
+                    <input name="bot-field" />
+                </div>
+
+                <div>
+                    <label>Name<br />
+                        <input type="text" name="full-name" />
+                    </label>
+                </div>
+
+                <div>
+                    <label htmlFor="email" >Email</label><br />
+                    <input id="email" type="email" name="email" />
+                </div>
+
+                <div>
+                    <label>Any Comments?<br />
+                        <textarea name="comments"></textarea>
+                    </label>
+                </div>
+
+                <button type="submit">Submit</button>
+
             </form>
         </div>
     )
