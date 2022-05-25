@@ -4,7 +4,8 @@ function Contact() {
     return (
         <div id="contact">
             <h1>Contact Me</h1>
-            <form name="contact" method="POST" data-netlify="true">
+            <form name="contact" method="POST" data-netlify="true" onSubmit={"submit"}>
+                <input type="hidden" name="form-name" value={"contact v1"}/>
                 <p>
                     <label>Your Name: <input type="text" name="name" /></label>
                 </p>
