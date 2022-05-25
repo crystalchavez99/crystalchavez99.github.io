@@ -1,1 +1,7 @@
 /* TODO Add site wide styles */
+*{
+    background-color: #3F72AF;
+    color: #F9F7F7;
+    text-decoration: none;
+    font-family: "Lucida Console", "Courier New", monospace;
+}
