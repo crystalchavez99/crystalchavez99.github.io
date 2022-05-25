@@ -7,9 +7,9 @@ function NavBar() {
                 <a href="#about">
                     Crystal Chavez
                 </a>
-                <a>Projects</a>
-                <a>Skills</a>
-                <a>Contact</a>
+                <a href="#projects">Projects</a>
+                <a href="#skills">Skills</a>
+                <a href="#contact">Contact</a>
             </nav>
         </div>
     )
