@@ -1,5 +1,5 @@
 import React from 'react';
-import { BadgeCheckIcon, ChipIcon } from "@heroicons/react/solid";
+// import { BadgeCheckIcon, ChipIcon } from "@heroicons/react/solid";
 function Skills(){
     return(
         <div id="skills">
