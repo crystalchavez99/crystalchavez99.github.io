@@ -18,9 +18,17 @@
 
 #about-me{
     color: #112D4E;
-    background-color: #F9F7F7;
+    background-color: #DBE2EF;
     padding: 1rem;
     margin-top: 1rem;
+}
+#about-me a{
+    color: white;
+    text-shadow: -1px 1px 0 #112D4E,
+    1px 1px 0 #112D4E,
+    1px -1px 0 #112D4E,
+    -1px -1px 0 #112D4E
+    ;
 }
 
 
