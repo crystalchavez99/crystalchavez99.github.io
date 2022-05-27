@@ -17,5 +17,21 @@
 
 .project{
     text-align: center;
-    border: 1px solid greenyellow;
+    color: #112D4E;
+    background-color: #DBE2EF;
+    border: 1px solid #112D4E;
+}
+.css-10mzr36-MuiGrid-root{
+    width: min-content;
+    margin: 0;
+}
+.MuiGrid-root{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+.project img{
+    max-width: 200px;
+    max-height: 200px;
 }
