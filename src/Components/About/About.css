@@ -1,0 +1,39 @@
+#about{
+    margin: 1rem;
+}
+#header{
+    /* display: flex; */
+    text-align: center;
+    /* flex-direction: column;
+    justify-content: center;
+    align-items: center; */
+}
+#header span:hover{
+    text-shadow: -1px 1px 0 #112D4E,
+    1px 1px 0 #112D4E,
+    1px -1px 0 #112D4E,
+    -1px -1px 0 #112D4E
+    ;
+}
+
+#about-me{
+    color: #112D4E;
+    background-color: #DBE2EF;
+    padding: 1rem;
+    margin-top: 1rem;
+}
+#about-me a{
+    color: white;
+    text-shadow: -1px 1px 0 #112D4E,
+    1px 1px 0 #112D4E,
+    1px -1px 0 #112D4E,
+    -1px -1px 0 #112D4E
+    ;
+}
+
+
+/* #info{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+} */

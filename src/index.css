@@ -1,1 +1,15 @@
 /* TODO Add site wide styles */
+body{
+    color: #F9F7F7;
+    background-color: #3F72AF;
+    font-family: "Lucida Console", "Courier New", monospace;
+    margin: 0;
+    padding: 0;
+    width: auto;
+    height: 100vh;
+    overflow-x: hidden;
+}
+a{
+    text-decoration: none;
+    color: #F9F7F7;
+}

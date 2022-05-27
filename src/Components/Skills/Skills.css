@@ -1,0 +1,10 @@
+#skills{
+    margin: 1rem;
+    text-align: center;
+}
+
+#skills i{
+    font-size: 100px;
+    word-wrap: break-word;
+    padding: .5rem;
+}
