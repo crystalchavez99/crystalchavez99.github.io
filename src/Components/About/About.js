@@ -33,6 +33,9 @@ function About() {
                     </p>
                 </div>
             </div>
+            {/* <div>
+                <button>Resume</button>
+            </div> */}
             {/* <div id="info">
                 <div>
                     <a href="#contact">Work With Me</a>

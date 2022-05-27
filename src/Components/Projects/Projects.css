@@ -4,11 +4,9 @@
     justify-content: center;
     align-items: center;
     margin: 1rem;
-    border: 1px solid red;
 }
 #project-list{
     display: flex;
-    border: 1px solid yellow;
     justify-content: center;
     align-items: center;
     text-align: center;
@@ -19,10 +17,9 @@
     text-align: center;
     color: #112D4E;
     background-color: #DBE2EF;
-    border: 1px solid #112D4E;
     padding: 1rem;
     overflow: hidden;
-    margin: 0 auto;
+    margin: 1rem;
 }
 .css-10mzr36-MuiGrid-root{
     width: min-content;
