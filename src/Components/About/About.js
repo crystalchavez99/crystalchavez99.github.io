@@ -8,6 +8,9 @@ function About() {
                     <br />
                     <span>A software engineer who loves to build apps.</span>
                 </h1>
+                <div>
+                    <img alt="profile-pic" />
+                </div>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui
                     laborum quasi, incidunt dolore iste nostrum cupiditate voluptas?
                     Laborum, voluptas natus?</p>
@@ -20,7 +23,7 @@ function About() {
                     <a href="#projects">See My Previous Projects</a>
                 </div>
                 <div>
-                    <img alt="profile-pic" />
+                    <a href="#skills">Skills and Technologies</a>
                 </div>
             </div>
         </div>
