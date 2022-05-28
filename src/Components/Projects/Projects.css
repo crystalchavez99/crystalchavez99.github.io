@@ -37,3 +37,17 @@
     max-height: 1000px;
     transition: all 0.3s;
 }
+
+.project a{
+    border: 1px solid #112D4E;
+    padding: .5rem;
+    color: #112D4E;
+    background-color: white;
+    font-weight: bold;
+}
+
+.project a:hover{
+    color:white;
+    background-color: #112D4E;
+    font-weight: bold;
+}

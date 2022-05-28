@@ -24,7 +24,6 @@ function Skills(){
 <i class="devicon-github-original-wordmark"></i>
 <i class="devicon-visualstudio-plain-wordmark"></i>
 <i class="devicon-ubuntu-plain-wordmark"></i>
-<i class="devicon-ubuntu-plain-wordmark"></i>
 <i class="devicon-java-plain-wordmark"></i>
             {/* <BadgeCheckIcon/>
             <ChipIcon/> */}

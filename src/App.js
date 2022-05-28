@@ -7,7 +7,7 @@ import Skills from './Components/Skills/Skills';
 
 function App() {
   return (
-    <div>
+    <div id="app">
       <NavBar/>
       <About/>
       <Projects/>
