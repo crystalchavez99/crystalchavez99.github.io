@@ -51,3 +51,7 @@
     background-color: #112D4E;
     font-weight: bold;
 }
+
+.project-resource a{
+    margin: 0 1rem;
+}

@@ -1,5 +1,6 @@
 import React from 'react';
 import './NavBar.css';
+import resume from './Resume.pdf';
 
 function NavBar() {
     return (
@@ -11,6 +12,7 @@ function NavBar() {
                 <a href="#projects">Projects</a>
                 <a href="#skills">Skills</a>
                 <a href="#contact">Contact</a>
+                <a href={resume} title="Resume" download>Resume</a>
             </nav>
         </div>
     )
