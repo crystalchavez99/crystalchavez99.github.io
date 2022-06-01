@@ -5,7 +5,7 @@ import { Grid } from '@mui/material';
 import { Box } from '@mui/material';
 function Projects() {
     return (
-        <div id="projects">
+        <div id="projects" className="content">
             <h1>Projects I've Built</h1>
             {/* <CodeIcon/> */}
             <div id='project-list'>

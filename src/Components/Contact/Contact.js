@@ -2,7 +2,7 @@ import React from 'react';
 import './Contact.css';
 function Contact() {
     return (
-        <div id="contact">
+        <div id="contact" className="content">
             <h1>Get In Touch With Me</h1>
             <br/>
             <a href="https://www.linkedin.com/in/cchavez99/" target={"_blank"} rel="noreferrer"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" /></a>

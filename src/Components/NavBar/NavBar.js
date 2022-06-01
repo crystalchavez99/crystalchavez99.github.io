@@ -3,7 +3,7 @@ import './NavBar.css';
 
 function NavBar() {
     return (
-        <div id="navbar">
+        <div id="navbar" className="content">
             <nav>
                 <a href="#about">
                     Crystal Chavez
