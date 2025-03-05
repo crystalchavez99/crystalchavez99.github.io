@@ -3,32 +3,18 @@
 	import FaGithub from 'svelte-icons/fa/FaGithub.svelte';
 	import FaEnvelope from 'svelte-icons/fa/FaEnvelope.svelte';
 	import FaMedium from 'svelte-icons/fa/FaMedium.svelte';
+	import FaTwitterSquare from 'svelte-icons/fa/FaTwitterSquare.svelte'
 	import { modalOpened } from '$lib/store';
 </script>
 
 <svelte:head>
-	<title>Gianmarco Cavallo - Main page</title>
+	<title>Crystal Chavez - Main page</title>
 </svelte:head>
 <main>
-	<h1>Hi!✋ <br /> I'm Gianmarco a Front-End Developer 💻 based in Italy</h1>
+	<h1>Hi!✋ <br /> I'm Crystal a Junior Web Developer 💻 based in Cali</h1>
 	<div class="icons">
-		<div
-			role="button"
-			tabindex="0"
-			on:keypress={() => {
-				modalOpened.set(true);
-			}}
-			on:click={() => {
-				modalOpened.set(true);
-			}}
-		>
-			<div class="icon">
-				<FaEnvelope />
-			</div>
-		</div>
-
 		<a
-			href="https://github.com/Ladvace"
+			href="https://github.com/crystalchavez99"
 			aria-label="GitHub"
 			target="_blank"
 			rel="noopener noreferrer"
@@ -38,7 +24,7 @@
 			</div>
 		</a>
 		<a
-			href="https://www.linkedin.com/in/ladvace/"
+			href="https://www.linkedin.com/in/cchavez99/"
 			aria-label="Linkedin"
 			target="_blank"
 			rel="noopener noreferrer"
@@ -48,13 +34,23 @@
 			</div>
 		</a>
 		<a
-			href="https://medium.com/@ladvace"
+			href="https://medium.com/@crystalchavez99"
 			aria-label="Medium"
 			target="_blank"
 			rel="noopener noreferrer"
 		>
 			<div class="icon">
 				<FaMedium />
+			</div>
+		</a>
+		<a
+			href="https://x.com/chavezcrystal99"
+			aria-label="Medium"
+			target="_blank"
+			rel="noopener noreferrer"
+		>
+			<div class="icon">
+				<FaTwitterSquare />
 			</div>
 		</a>
 	</div>
