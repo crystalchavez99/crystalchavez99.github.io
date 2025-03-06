@@ -1,7 +1,3 @@
-<script>
-	import { Email } from '$lib/Constants';
-</script>
-
 <svelte:head>
 	<title>Gianmarco Cavallo - Privacy policy</title>
 </svelte:head>
@@ -403,11 +399,6 @@
 			You are advised to review this Privacy Policy periodically for any changes. Changes to this
 			Privacy Policy are effective when they are posted on this page.
 		</p>
-		<h1>Contact Us</h1>
-		<p>If you have any questions about this Privacy Policy, You can contact us:</p>
-		<ul>
-			<li>By email: {Email}</li>
-		</ul>
 	</main>
 </div>
 

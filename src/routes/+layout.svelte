@@ -1,10 +1,6 @@
 <script lang="ts">
 	import Navbar from '$lib/components/NavBar.svelte';
-	import Button from '$lib/components/Button.svelte';
-	import FaCopy from 'svelte-icons/fa/FaCopy.svelte';
-	import Tooltip from '$lib/components/Tooltip.svelte';
 	import { page } from '$app/stores';
-	import Modal from '$lib/components/Modal.svelte';
 	import { onMount } from 'svelte';
 	import { customBackground } from '$lib/store';
 
@@ -33,10 +29,6 @@
 		for (const name in variables) {
 			node.style.setProperty(`--${name}`, variables[name]);
 		}
-	};
-
-	const copy = () => {
-		navigator.clipboard.writeText(Email);
 	};
 
 	onMount(() => {
