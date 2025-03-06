@@ -3,13 +3,10 @@
 	import Button from '$lib/components/Button.svelte';
 	import FaCopy from 'svelte-icons/fa/FaCopy.svelte';
 	import Tooltip from '$lib/components/Tooltip.svelte';
-	// import { beforeNavigate } from '$app/navigation';
 	import { page } from '$app/stores';
 	import Modal from '$lib/components/Modal.svelte';
 	import { onMount } from 'svelte';
 	import { customBackground } from '$lib/store';
-	import { Email } from '$lib/Constants';
-	// import routes from '$lib/NavRoutes';
 
 	let copied = false;
 	const cookieEnabled = false;
@@ -79,43 +76,7 @@
 	</div>
 {/if}
 
-<Modal>
-	<div slot="content" class="modalContainer">
-		<h1>Email:</h1>
-		<div>
-			<p>{Email}</p>
-			&nbsp;
-			<div class="tooltip">
-				<Tooltip tooltip={copied ? 'Copied' : 'Copy'}>
-					<div
-						id="clipboard"
-						role="button"
-						tabindex="0"
-						on:keypress={() => {
-							copied = true;
-							copy();
-							setTimeout(() => {
-								copied = false;
-							}, 500);
-						}}
-						on:click={() => {
-							copied = true;
-							copy();
-							setTimeout(() => {
-								copied = false;
-							}, 500);
-						}}
-					>
-						<div>
-							<FaCopy />
-						</div>
-					</div>
-				</Tooltip>
-			</div>
-		</div>
-		<Button>Send Email</Button>
-	</div>
-</Modal>
+
 <Navbar segment={$page.url.pathname} />
 
 <slot />
