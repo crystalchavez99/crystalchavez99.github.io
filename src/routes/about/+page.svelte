@@ -10,10 +10,9 @@
 	<main>
 		<h1>About</h1>
 		<p>
-			I'm a Software developer with over 2 years of front-end development experience, experienced in
-			both enterprise and open-source software development. I'm based in Italy and currently working
-			as a freelancer and coding in Node.js, React.js (and other web technologies) and Go(lang), but
-			I tend to learn and use the best technology and approach to best solve the problem I'm facing.
+			I'm a Web Developer with over a year of web development  experience, and have been learning the last 4 years.
+			I'm based in Cali and currently working as a Junior Web Developer and coding in Angular, and Svelte, but
+			I am seeking to learn and use the best technology.
 		</p>
 		<h2>Skills</h2>
 		{#each Object.entries(skills) as [section, technologies]}
